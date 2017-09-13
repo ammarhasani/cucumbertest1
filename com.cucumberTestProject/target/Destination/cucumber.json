@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test facebook login functionality",
+        "description": "",
+        "id": "facebook-smoke-test;test-facebook-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31436808444,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser and launch the application",
+            "match": {
+              "location": "FacebookTest.open_browser_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 499294521,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "FacebookTest.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8314199965,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "FacebookTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249300709,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FacebookTest.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook smoke test",
+    "description": "",
+    "id": "facebook-smoke-test",
+    "keyword": "Feature",
+    "uri": "FacebookSmoke.feature"
+  }
+]atabaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d60.0.3112.113, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 3794e3dfdd6770e262849b4c899fb56a\n*** Element info: {Using\u003did, value\u003demail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat com.cucumber.stepDefination.FacebookTest.i_enter_valid_username_and_valid_password(FacebookTest.java:27)\r\n\tat ✽.When I enter valid username and valid password(FacebookSmoke.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "FacebookTest.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "FacebookTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FacebookTest.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook smoke test",
+    "description": "",
+    "id": "facebook-smoke-test",
+    "keyword": "Feature",
+    "uri": "FacebookSmoke.feature"
+  }
+]
