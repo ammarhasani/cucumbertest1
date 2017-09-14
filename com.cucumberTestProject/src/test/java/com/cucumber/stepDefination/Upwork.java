@@ -22,13 +22,13 @@ public class Upwork {
 	@When("^I enter valid credentials & password$")
 	public void i_enter_valid_credentials_password() throws Throwable {
 		Thread.sleep(5000);
-		driver.findElement(By.id("username")).sendKeys("vgupta@360logica.com");
-		driver.findElement(By.id("password")).sendKeys("Strange!");
+		driver.findElement(By.id("login_username")).sendKeys("vgupta@360logica.com");
+		driver.findElement(By.id("login_password")).sendKeys("strange!");
 	}
 
 	@Then("^user should be able to login$")
 	public void user_should_be_able_to_login() throws Throwable {
-		driver.findElement(By.id("submit")).click();
+		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
 		Thread.sleep(5000);
 
 	}

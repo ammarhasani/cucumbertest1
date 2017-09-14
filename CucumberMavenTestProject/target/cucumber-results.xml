@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Test Facebook smoke scenario" name="Test login with valid credentials" time="0">
+<skipped><![CDATA[Given Open browser and start application....................................undefined
+When I enter valid username and valid password..............................undefined
+Then user should be able to login succesfully...............................undefined
+]]></skipped>
+</testcase>
+</testsuite>
